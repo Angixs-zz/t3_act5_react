@@ -1,0 +1,84 @@
+.titulo {
+    font-size: 2rem;
+    color: orange;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.noteList {
+    list-style: none;
+    padding: 20px;
+    margin: 0;
+}
+
+.noteItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    font-size: 1.3em;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #444;
+    width: 100%;
+}
+
+.iconsContainer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.iconsContainer svg {
+    cursor: pointer;
+}
+
+.actionButton {
+    background-color: #6c757d;
+    color: white;
+    border: none;
+    padding: 5px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.8em;
+    transition: background-color 0.2s;
+}
+
+.actionButton:hover {
+    background-color: #5a6268;
+}
+
+.editForm {
+    margin-top: 15px;
+    padding: 15px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.editInput {
+    width: 100%;
+    padding: 12px;
+    font-size: 1.1em;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    outline: none;
+}
+
+.saveButton,
+.cancelButton {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    color: black;
+}
+
+.saveButton {
+    background-color: #28a745;
+    margin-right: 10px;
+}
+
+.cancelButton {
+    background-color: #dc3545;
+}

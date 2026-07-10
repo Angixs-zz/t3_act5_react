@@ -1,0 +1,31 @@
+{
+  "notas": [
+    {
+      "text": "Pasteles",
+      "completed": false,
+      "id": "bsgFn-9rjew"
+    }
+  ],
+  "invitados": [
+    {
+      "id": "1",
+      "nombre": "Miguel",
+      "confirmado": true
+    },
+    {
+      "id": "2",
+      "nombre": "Yareli",
+      "confirmado": true
+    },
+    {
+      "id": "JG0-yoo_6hI",
+      "nombre": "Meli",
+      "confirmado": true
+    },
+    {
+      "id": "jmc73xwujOk",
+      "nombre": "Paco",
+      "confirmado": false
+    }
+  ]
+}

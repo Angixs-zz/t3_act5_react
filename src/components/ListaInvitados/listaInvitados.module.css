@@ -1,0 +1,129 @@
+.listaContainer {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.tituloLista {
+    color: orange;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.ulInvitados {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.liInvitado {
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: #f8f9fa;
+    border: 1px solid #eee;
+    border-radius: 6px;
+    font-size: 1.1em;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+    border-bottom: 1px solid #444;
+}
+
+.iconsContainer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.iconsContainer svg {
+    cursor: pointer;
+}
+
+.actionButton {
+    background-color: #6c757d;
+    color: white;
+    border: none;
+    padding: 5px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.8em;
+    transition: background-color 0.2s;
+}
+
+.actionButton:hover {
+    background-color: #5a6268;
+}
+
+.editForm {
+    margin-top: 15px;
+    padding: 15px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.editInput {
+    width: 100%;
+    padding: 12px;
+    font-size: 1.1em;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    outline: none;
+}
+
+.saveButton,
+.cancelButton {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    color: black;
+}
+
+.saveButton {
+    background-color: #28a745;
+    margin-right: 10px;
+}
+
+.cancelButton {
+    background-color: #dc3545;
+}
+
+.formInvitado {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.inputInvitado {
+    flex: 1;
+    padding: 10px;
+    font-size: 1.1em;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+}
+
+.btnAgregar {
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 20px;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.btnAgregar:hover {
+    background-color: darkorange;
+}

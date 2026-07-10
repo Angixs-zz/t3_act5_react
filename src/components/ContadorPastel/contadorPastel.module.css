@@ -1,0 +1,59 @@
+.contadorContainer {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.contadorContainer h3 {
+    margin-top: 0;
+    color: #e91e63;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 15px;
+}
+
+.numero {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    min-width: 40px;
+}
+
+.btnRestar, .btnSumar {
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btnRestar {
+    background-color: #dc3545;
+}
+
+.btnSumar {
+    background-color: #28a745;
+}
+
+.mensajeRisa {
+    margin-top: 15px;
+    color: #e91e63;
+    font-weight: bold;
+    font-style: italic;
+}

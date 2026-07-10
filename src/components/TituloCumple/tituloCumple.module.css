@@ -1,0 +1,21 @@
+.tituloContainer {
+    text-align: center;
+    margin-bottom: 25px;
+    padding: 20px;
+    background-color: #1a1a1a;
+    border-radius: 12px;
+    border: 2px dashed orange;
+}
+
+.mainTitle {
+    color: orange;
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.subTitle {
+    color: #ccc;
+    font-size: 1.2em;
+    margin-top: 10px;
+    font-style: italic;
+}
